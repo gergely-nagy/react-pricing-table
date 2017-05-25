@@ -1,0 +1,70 @@
+{
+  "name": "react-pricing-table",
+  "version": "0.0.1",
+  "description": "Fast, flexible, simple pricing tables in React",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gergely-nagy/react-pricing-table.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gergely-nagy/react-pricing-table/issues"
+  },
+  "author": "Gergely Nagy",
+  "license": "MIT",
+  "homepage": "https://github.com/",
+  "scripts": {
+    "build": "webpack --config webpack.config.babel.js",
+    "release": "webpack --p --config webpack.config.babel.js",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "deploy": "",
+    "lint": "eslint ./src",
+    "build-examples": "webpack --config examples/webpack.config.babel.js --progress",
+    "start": "webpack-dev-server --config examples/webpack.config.live.babel.js"
+  },
+  "peerDependencies": {
+    "react": "~0.14.8 || ^15.0.0",
+    "react-dom": "~0.14.8 || ^15.0.0"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-cookie": "^1.0.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.2",
+    "babel-jest": "^19.0.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^3.5.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.0",
+    "enzyme": "^2.8.2",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^6.10.3",
+    "jest": "^19.0.2",
+    "react-addons-test-utils": "^15.5.1",
+    "react-dom": "^15.5.4",
+    "react-hot-loader": "next",
+    "react-test-renderer": "^15.5.4",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "jest": {
+    "modulePaths": ["./src"],
+    "moduleFileExtensions": ["js", "jsx"],
+    "transform": {
+      "^.+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest",
+      "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
+      "^(?!.*\\.(js|jsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
+    },
+    "transformIgnorePatterns": ["[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"]
+  },
+  "keywords": [
+    "react-component",
+    "react",
+    "pricing"
+    "table"
+  ]
+}
