@@ -2,6 +2,10 @@
 
 Fast, flexible, simple pricing tables in React ([Demo](https://))
 
+## Status
+
+Pre-alpha and under heavy development, do not use!
+
 ## Installation
 
 The package can be installed via NPM:
