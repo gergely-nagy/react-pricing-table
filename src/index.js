@@ -7,7 +7,7 @@ class MyComponent extends React.Component {
     super(props);
 
     this.state = {
-      
+
     };
   }
 
@@ -23,7 +23,7 @@ class MyComponent extends React.Component {
             <ul className="price">
               <li className="header">Basic</li>
               <li className="grey">$ 9.99 / year</li>
-              <li>10GB Storage</li>
+              <li>11GB Storage</li>
               <li>10 Emails</li>
               <li>10 Domains</li>
               <li>1GB Bandwidth</li>
