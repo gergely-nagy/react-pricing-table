@@ -10,7 +10,7 @@ export default () => ({
     output: {
         path: path.join(__dirname, 'dist'),
         filename: '[name].js',
-        library: 'react-npm-component-boilerplate',
+        library: 'react-pricing-table',
         libraryTarget: 'umd',
     },
 

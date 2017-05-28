@@ -1,4 +1,4 @@
-# React Pricing Table
+# React Pricing Table  &middot; [![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/react-pricing-table)  [![npm](https://img.shields.io/npm/dt/express.svg)](https://www.npmjs.com/package/react-pricing-table) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/gergely-nagy/react-pricing-table)
 
 Fast, flexible, simple pricing tables in React ([Demo](https://))
 
