@@ -1,4 +1,4 @@
-# React Pricing Table  &middot; [![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/react-pricing-table)  [![npm](https://img.shields.io/npm/dt/express.svg)](https://www.npmjs.com/package/react-pricing-table) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/gergely-nagy/react-pricing-table)
+# React Pricing Table  &middot; [![npm version](https://badge.fury.io/js/react-pricing-table.svg)](https://badge.fury.io/js/react-pricing-table) [![npm downloads](https://img.shields.io/npm/dm/react-pricing-table.svg?style=flat)](http://badge.fury.io/js/react-pricing-table) [![license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/gergely-nagy/react-pricing-table)
 
 Fast, flexible, simple pricing tables in React ([Demo](https://))
 
