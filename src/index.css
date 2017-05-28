@@ -2,23 +2,36 @@
 /* Style the list */
 .price {
     list-style-type: none;
-    border: 1px solid #eee;
-    margin: 0;
-    padding: 0;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
+    margin:20px;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.basic-border {
+    border: 1px solid grey;
+}
+
+.highlighted-border {
+    border: 1px solid #f44336;
 }
 
 /* Add shadows on hover */
 .price:hover {
-    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+    margin-top: 10px;
 }
 
 /* Pricing header */
-.price .header {
-    background-color: #111;
+.price .highlighted-header {
+    background-color: #f44336;
     color: white;
     font-size: 25px;
+}
+
+.price .basic-header{
+  background-color: #f8f9fa;
+  color: grey;
+  font-size: 25px;
 }
 
 /* List items */
@@ -37,12 +50,7 @@
 
 /* The "Sign Up" button */
 .button {
-    background-color: #4CAF50;
-    border: none;
+    background-color: #f44336;
     color: white;
-    padding: 10px 25px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 18px;
     margin-top: 10px;
 }
