@@ -6,6 +6,8 @@
     -webkit-transition: margin 0.5s ease-out;
     -moz-transition: margin 0.5s ease-out;
     -o-transition: margin 0.5s ease-out;
+    padding-left: 0px;
+    min-width: 180px;
 }
 
 .basic-border {

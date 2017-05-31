@@ -1,6 +1,7 @@
-import './skeleton.css'
+import './grid.css'
 import './index.css'
 import React from 'react';
+import Button from './Button';
 
 class MyComponent extends React.Component {
   constructor(props) {
@@ -18,8 +19,8 @@ class MyComponent extends React.Component {
   render() {
     return (
       <div className="react-pricing-table">
-        <div className="row">
-          <div className="three columns">
+        <div className="Grid">
+          <div className="Grid-cell">
             <ul className="price basic-border">
               <li className="basic-header">GROUP</li>
               <li className="grey">$13/month*</li>
@@ -28,11 +29,11 @@ class MyComponent extends React.Component {
               <li>10 Domains</li>
               <li>1GB Bandwidth</li>
               <li className="grey">
-                <a href="#" className="button">Sign Up</a>
+                <Button className="butt" />
               </li>
             </ul>
           </div>
-          <div className="three columns">
+          <div className="Grid-cell">
             <ul className="price highlighted-border">
               <li className="highlighted-header">TEAM</li>
               <li className="grey">$27/month*</li>
@@ -45,7 +46,7 @@ class MyComponent extends React.Component {
               </li>
             </ul>
           </div>
-          <div className="three columns">
+          <div className="Grid-cell">
             <ul className="price basic-border">
               <li className="basic-header">AGENCY</li>
               <li className="grey">$54/month*</li>
@@ -58,7 +59,7 @@ class MyComponent extends React.Component {
               </li>
             </ul>
           </div>
-          <div className="three columns">
+          <div className="Grid-cell">
             <ul className="price basic-border">
               <li className="basic-header">ENTERPRISE</li>
               <li className="grey">$100/month</li>
