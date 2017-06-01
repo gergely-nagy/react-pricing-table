@@ -24,9 +24,9 @@ class Button extends React.Component {
 
   render() {
     console.log('this.props: ', this.props);
-    const { color, onClick, className } = this.props;
+    const { color, onClick, className, children } = this.props;
     return (
-       <button type="button"  className={className} >Click Me!</button>
+       <button type="button"  className={className} >{children}</button>
     );
   }
 }

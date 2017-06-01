@@ -29,7 +29,7 @@ class MyComponent extends React.Component {
               <li>10 Domains</li>
               <li>1GB Bandwidth</li>
               <li className="grey">
-                <Button className="butt" />
+                <Button className="button-submit">TRY IT FREE</Button>
               </li>
             </ul>
           </div>
@@ -42,7 +42,7 @@ class MyComponent extends React.Component {
               <li>10 Domains</li>
               <li>1GB Bandwidth</li>
               <li className="grey">
-                <a href="#" className="button">Sign Up</a>
+                <Button className="button-submit">SIGN UP</Button>
               </li>
             </ul>
           </div>
@@ -55,7 +55,7 @@ class MyComponent extends React.Component {
               <li>10 Domains</li>
               <li>1GB Bandwidth</li>
               <li className="grey">
-                <a href="#" className="button">Sign Up</a>
+                <Button className="button-submit">SIGN UP</Button>
               </li>
             </ul>
           </div>
@@ -68,7 +68,7 @@ class MyComponent extends React.Component {
               <li>10 Domains</li>
               <li>1GB Bandwidth</li>
               <li className="grey">
-                <a href="#" className="button">Sign Up</a>
+                <Button className="button-submit">LEARN MORE</Button>
               </li>
             </ul>
           </div>
