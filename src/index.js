@@ -3,7 +3,7 @@ import './index.css'
 import React from 'react';
 import Button from './Button';
 
-class MyComponent extends React.Component {
+class PricingTable extends React.Component {
   constructor(props) {
     super(props);
 
@@ -23,8 +23,8 @@ class MyComponent extends React.Component {
           <div className="Grid-cell">
             <ul className="price basic-border">
               <li className="basic-header">GROUP</li>
-              <li className="grey">$13/month*</li>
-              <li>11GB Storage</li>
+              <li className="tag">$13/month*</li>
+              <li><b>11GB</b> Storage</li>
               <li>10 Emails</li>
               <li>10 Domains</li>
               <li>1GB Bandwidth</li>
@@ -36,7 +36,7 @@ class MyComponent extends React.Component {
           <div className="Grid-cell">
             <ul className="price highlighted-border">
               <li className="highlighted-header">TEAM</li>
-              <li className="grey">$27/month*</li>
+              <li className="tag">$27/month*</li>
               <li>10GB Storage</li>
               <li>10 Emails</li>
               <li>10 Domains</li>
@@ -49,7 +49,7 @@ class MyComponent extends React.Component {
           <div className="Grid-cell">
             <ul className="price basic-border">
               <li className="basic-header">AGENCY</li>
-              <li className="grey">$54/month*</li>
+              <li className="tag">$54/month*</li>
               <li>10GB Storage</li>
               <li>10 Emails</li>
               <li>10 Domains</li>
@@ -62,7 +62,7 @@ class MyComponent extends React.Component {
           <div className="Grid-cell">
             <ul className="price basic-border">
               <li className="basic-header">ENTERPRISE</li>
-              <li className="grey">$100/month</li>
+              <li className="tag">$100/month</li>
               <li>10GB Storage</li>
               <li>10 Emails</li>
               <li>10 Domains</li>
@@ -78,4 +78,4 @@ class MyComponent extends React.Component {
   }
 }
 
-export default MyComponent;
+export {PricingTable};

@@ -47,21 +47,27 @@ body {
 
 /* List items */
 .price li {
-    border-bottom: 1px solid #eee;
+  /*  border-bottom: 1px solid #eee; */
     padding: 5px;
     text-align: center;
+    font-size: 14px;
 }
 
-/* Grey list item */
-.price .grey {
-    background-color: #eee;
+/* tag list item */
+.price .tag {
     font-size: 20px;
-    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* The "Sign Up" button */
 .button-submit {
     background-color: #f44336;
     color: white;
-    height: 30px;
+    height: 35px;
+    border: none;
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
