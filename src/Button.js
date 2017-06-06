@@ -14,19 +14,13 @@ const defaultProps = {
 class Button extends React.Component {
   constructor(props) {
     super(props);
-
-    this.onClick = this.onClick.bind(this);
-  }
-
-  onClick(e) {
-
   }
 
   render() {
     console.log('this.props: ', this.props);
     const { color, onClick, className, children } = this.props;
     return (
-       <button type="button"  className={className} >{children}</button>
+       <button type="button" onClick={onClick} className={className} >{children}</button>
     );
   }
 }
