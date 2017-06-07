@@ -5,8 +5,7 @@
 </div>
 <div align="center">
   <sub> Built with ❤︎ by
-    <a href="https://www.linkedin.com/in/gergely-nagy-9a8198117/">Gergely Nagy and</a>
-    <a href=""> contributors. </a>
+    <a href="https://www.linkedin.com/in/gergely-nagy-9a8198117/">Gergely Nagy </a> and <a href=""> contributors. </a>
   </sub>
 </div>
 <br />
