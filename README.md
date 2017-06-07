@@ -4,43 +4,38 @@
   <strong>Fast, flexible, simple pricing tables in React.</strong>
 </div>
 <div align="center">
-  <sub>Built with ❤︎ by
-  <a href="https://www.linkedin.com/in/gergely-nagy-9a8198117/">Gergely Nagy</a> and
-  <a href="">
-    contributors.
-  </a>
+  <sub> Built with ❤︎ by
+    <a href="https://www.linkedin.com/in/gergely-nagy-9a8198117/">Gergely Nagy and</a>
+    <a href=""> contributors. </a>
   </sub>
 </div>
 <br />
 <div align="center">
   <!-- NPM version -->
   <a href="https://www.npmjs.com/package/react-pricing-table">
-    <img src="https://badge.fury.io/js/react-pricing-table.svg"
-      alt="NPM version" />
+    <img src="https://badge.fury.io/js/react-pricing-table.svg" alt="NPM version" />
   </a>
   <!-- Downloads -->
   <a href="https://www.npmjs.com/package/react-pricing-table">
-    <img src="https://img.shields.io/npm/dm/react-pricing-table.svg?style=flat"
-      alt="Downloads" />
+    <img src="https://img.shields.io/npm/dm/react-pricing-table.svg?style=flat" alt="Downloads" />
   </a>
   <!-- License-->
-  <a href="">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat"
-      alt="License" />
+  <a href="https://github.com/gergely-nagy/react-pricing-table/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License" />
   </a>
 </div>
 
 <div align="center">
   <h3>
-    <a href="">
+    <a href="https://gitter.im/react-pricing-table/Lobby">
       Website
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://gitter.im/react-pricing-table/Lobby">
       Demo
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://gitter.im/react-pricing-table/Lobby">
       Contributing
     </a>
     <span> | </span>
@@ -59,7 +54,6 @@
 - [Compatibility](#compatibility)
 - [Local Development](#localdevelopment)
 - [License](#license)
-<!--- [Support](#support) -->
 
 
 ## Status
@@ -158,27 +152,3 @@ The examples are hosted within the docs folder and are ran in the simple add tha
 ## License
 
 Copyright (c) 2017 Gergely Nagy and individual contributors. Licensed under MIT license, see [LICENSE](LICENSE) for the full license.
-
-<!--
-## Support
-
-### Sponsors
-
-Become a sponsor and help ensure the development of independent quality
-software. You can help us keep the lights on, bellies full and work days sharp
-and focused on improving the state of the web. [Become a
-sponsor](https://opencollective.com/choo#sponsor)
-
-<a href="" target="_blank"><img src=""></a>
-<a href="" target="_blank"><img src=""></a>
-<a href="" target="_blank"><img src=""></a>
-
-### Backers
-Become a backer, and buy us a coffee (or perhaps lunch?) every month or so.
-[Become a backer](https://opencollective.com/)
-
-<a href="https://opencollective.com/" target="_blank"><img src=""></a>
-<a href="https://opencollective.com/" target="_blank"><img src=""></a>
-<a href="https://opencollective.com/" target="_blank"><img src=""></a>
-<a href="https://opencollective.com/" target="_blank"><img src=""></a>
-<a href="" target="_blank"><img src=""></a> -->
