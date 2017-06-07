@@ -4,21 +4,25 @@ import PropTypes from 'prop-types';
 const propTypes = {
   color: PropTypes.string,
   onClick: PropTypes.func,
-  className: PropTypes.string,
 };
 
-const defaultProps = {
-  color: 'secondary',
-};
 
 class Button extends React.Component {
   constructor(props) {
     super(props);
   }
 
+  componentDidMount(){
+    var buttonColor =this.props.color;
+     Array.from(document.getElementsByClassName('button-submit')).forEach(
+       function(element, index, array) {
+        element.style.backgroundColor=buttonColor;
+      }
+    );
+  }
+
   render() {
-    console.log('this.props: ', this.props);
-    const { color, onClick, className, children } = this.props;
+    const {onClick, className, color,  children } = this.props;
     return (
        <button type="button" onClick={onClick} className={className} >{children}</button>
     );
@@ -26,6 +30,5 @@ class Button extends React.Component {
 }
 
 Button.propTypes = propTypes;
-Button.defaultProps = defaultProps;
 
 export default Button;

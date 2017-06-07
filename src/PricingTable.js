@@ -4,12 +4,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const propTypes = {
-  baseColor: PropTypes.string,
   highlightColor: PropTypes.string,
 };
 
 const defaultProps = {
-  baseColor: '#f8f9fa',
   highlightColor: '#f44336',
 };
 

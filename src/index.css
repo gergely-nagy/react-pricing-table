@@ -71,3 +71,7 @@ body {
     margin-bottom: 10px;
     cursor: pointer;
 }
+
+.text-line-through{
+  text-decoration: line-through;
+}
