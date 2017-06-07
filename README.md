@@ -1,27 +1,7 @@
-<h1 align="center">&middot;  React Pricing Table  &middot;</h1>
+<h1 align="center">React Pricing Table</h1>
 
 <div align="center">
   <strong>Fast, flexible, simple pricing tables in React.</strong>
-</div>
-<div align="center">
-  <sub> Built with ❤︎ by
-    <a href="https://www.linkedin.com/in/gergely-nagy-9a8198117/">Gergely Nagy </a> and <a href=""> contributors. </a>
-  </sub>
-</div>
-<br />
-<div align="center">
-  <!-- NPM version -->
-  <a href="https://www.npmjs.com/package/react-pricing-table">
-    <img src="https://badge.fury.io/js/react-pricing-table.svg" alt="NPM version" />
-  </a>
-  <!-- Downloads -->
-  <a href="https://www.npmjs.com/package/react-pricing-table">
-    <img src="https://img.shields.io/npm/dm/react-pricing-table.svg?style=flat" alt="Downloads" />
-  </a>
-  <!-- License-->
-  <a href="https://github.com/gergely-nagy/react-pricing-table/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License" />
-  </a>
 </div>
 
 <div align="center">
@@ -42,6 +22,25 @@
       Chat
     </a>
   </h3>
+</div>
+<div align="center">
+  <!-- NPM version -->
+  <a href="https://www.npmjs.com/package/react-pricing-table">
+    <img src="https://badge.fury.io/js/react-pricing-table.svg" alt="NPM version" />
+  </a>
+  <!-- Downloads -->
+  <a href="https://www.npmjs.com/package/react-pricing-table">
+    <img src="https://img.shields.io/npm/dm/react-pricing-table.svg?style=flat" alt="Downloads" />
+  </a>
+  <!-- License-->
+  <a href="https://github.com/gergely-nagy/react-pricing-table/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License" />
+  </a>
+</div>
+<br />
+
+<div align="center">
+    Built with ❤︎ by <a href="https://www.linkedin.com/in/gergely-nagy-9a8198117/">Gergely Nagy </a> and <a href=""> contributors. </a>
 </div>
 
 
