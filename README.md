@@ -8,7 +8,7 @@
     Built with ❤︎ by <a href="https://www.linkedin.com/in/gergely-nagy-9a8198117/">Gergely Nagy </a> and <a href=""> contributors. </a>
 </div>
 
-
+<br />
 
 <div align="center">
   <!-- NPM version -->
