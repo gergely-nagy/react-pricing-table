@@ -5,24 +5,11 @@
 </div>
 
 <div align="center">
-  <h3>
-    <a href="https://gitter.im/react-pricing-table/Lobby">
-      Website
-    </a>
-    <span> | </span>
-    <a href="https://gitter.im/react-pricing-table/Lobby">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://gitter.im/react-pricing-table/Lobby">
-      Contributing
-    </a>
-    <span> | </span>
-    <a href="https://gitter.im/react-pricing-table/Lobby">
-      Chat
-    </a>
-  </h3>
+    Built with ❤︎ by <a href="https://www.linkedin.com/in/gergely-nagy-9a8198117/">Gergely Nagy </a> and <a href=""> contributors. </a>
 </div>
+
+
+
 <div align="center">
   <!-- NPM version -->
   <a href="https://www.npmjs.com/package/react-pricing-table">
@@ -39,9 +26,6 @@
 </div>
 <br />
 
-<div align="center">
-    Built with ❤︎ by <a href="https://www.linkedin.com/in/gergely-nagy-9a8198117/">Gergely Nagy </a> and <a href=""> contributors. </a>
-</div>
 
 
 ## Table of Content
