@@ -1,5 +1,3 @@
-import './grid.css'
-import './index.css'
 import React from 'react';
 import PropTypes from 'prop-types';
 

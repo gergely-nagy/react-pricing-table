@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {PricingTable} from 'index';
+import {PricingTable} from '../src/index';
 
 describe('<index />', () => {
 
