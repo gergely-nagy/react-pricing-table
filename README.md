@@ -45,6 +45,7 @@ Pre-alpha and under heavy development, do not use!
 ## Features
 - [x] :iphone: <strong>Responsive: </strong> Made mobile responsive with [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout)
 - [ ] :white_check_mark: <strong>Test: </strong> Adding tests.
+- [ ] <strong>Website: </strong>
 
 ## Installation
 

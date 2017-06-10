@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {PricingTable} from '../src/index';
+import {PricingDetail} from '../src/index';
+import { shallow } from 'enzyme';
 
-describe('<index />', () => {
-
+describe('PricingDetail', () => {
     it('renders without crashing', () => {
         const div = document.createElement('div');
-        ReactDOM.render(<PricingTable />, div);
+        ReactDOM.render(<PricingDetail />, div);
     });
+
+
 });
