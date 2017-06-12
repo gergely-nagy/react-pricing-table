@@ -1,6 +1,6 @@
 {
   "name": "react-pricing-table",
-  "version": "0.1.9",
+  "version": "0.1.99",
   "description": "Fast, flexible, simple pricing tables in React",
   "repository": {
     "type": "git",
@@ -40,7 +40,7 @@
     "clean-webpack-plugin": "^0.1.16",
     "css-loader": "^0.28.0",
     "enzyme": "^2.8.2",
-    "eslint": "^3.19.0",
+    "eslint": "^4.0.0",
     "eslint-plugin-react": "^7.0.1",
     "jest": "^20.0.4",
     "react-addons-test-utils": "^15.5.1",
