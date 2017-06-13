@@ -34,7 +34,8 @@
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Compatibility](#compatibility)
-- [Local Development](#localdevelopment)
+- [Local Development](#local_development)
+- [API](#api)
 - [License](#license)
 
 
@@ -125,6 +126,90 @@ You can run `yarn test` to execute the test suite and linters. To help you devel
 
 ### The examples
 The examples are hosted within the docs folder and are ran in the simple add that loads the PricingTable. To extend the examples with a new example, you can simply duplicate one of the existing examples and change the unique properties of your example.
+
+## API
+
+### PricingTable props:
+
+<table class="table table-bordered table-striped">
+    <thead>
+    <tr>
+        <th style="width: 100px;">name</th>
+        <th style="width: 50px;">type</th>
+        <th style="width: 50px;">default</th>
+        <th>description</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>highlightColor</td>
+          <td>string</td>
+          <td>#f44336</td>
+          <td>Color of the highlighted slot and buttons.</td>
+        </tr>
+    </tbody>
+</table>
+
+### PricingSlot props:
+
+<table class="table table-bordered table-striped">
+    <thead>
+    <tr>
+        <th style="width: 100px;">name</th>
+        <th style="width: 50px;">type</th>
+        <th style="width: 50px;">default</th>
+        <th>description</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>onClick</td>
+          <td>function</td>
+          <td></td>
+          <td>Function to be called when the button is clicked.</td>
+        </tr>
+        <tr>
+          <td>title</td>
+          <td>string</td>
+          <td></td>
+          <td>Title of this slot.</td>
+        </tr>
+        <tr>
+          <td>priceText</td>
+          <td>string</td>
+          <td></td>
+          <td>Label for the price.</td>
+        </tr>
+        <tr>
+          <td>highlighted</td>
+          <td>boolean</td>
+          <td>false</td>
+          <td>Whether to show highlighted header.</td>
+        </tr>
+    </tbody>
+</table>
+
+### PricingDetail props:
+
+<table class="table table-bordered table-striped">
+    <thead>
+    <tr>
+        <th style="width: 100px;">name</th>
+        <th style="width: 50px;">type</th>
+        <th style="width: 50px;">default</th>
+        <th>description</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>strikethrough</td>
+          <td>boolean</td>
+          <td>false</td>
+          <td>Whether to show strikethrough text decoration.</td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 ## License

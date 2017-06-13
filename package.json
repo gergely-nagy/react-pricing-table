@@ -1,6 +1,6 @@
 {
   "name": "react-pricing-table",
-  "version": "0.1.99",
+  "version": "0.2.0",
   "description": "Fast, flexible, simple pricing tables in React",
   "repository": {
     "type": "git",
@@ -11,7 +11,7 @@
   },
   "author": "Gergely Nagy",
   "license": "MIT",
-  "homepage": "https://github.com/",
+  "homepage": "https://gergely-nagy.github.io/react-pricing-table/",
   "scripts": {
     "build": "webpack --config webpack.config.babel.js",
     "release": "webpack --p --config webpack.config.babel.js",
