@@ -15,6 +15,10 @@
   <a href="https://www.npmjs.com/package/react-pricing-table">
     <img src="https://badge.fury.io/js/react-pricing-table.svg" alt="NPM version" />
   </a>
+  <!-- Travis build -->
+  <a href="https://travis-ci.org/gergely-nagy/react-pricing-table/">
+    <img src="https://img.shields.io/travis/gergely-nagy/react-pricing-table.svg" alt="Travis" />
+  </a>
   <!-- Downloads -->
   <a href="https://www.npmjs.com/package/react-pricing-table">
     <img src="https://img.shields.io/npm/dm/react-pricing-table.svg?style=flat" alt="Downloads" />
