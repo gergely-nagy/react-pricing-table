@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Button from '../src/Button';
 import { shallow, mount } from 'enzyme';
+import Enzyme from 'enzyme';
+import Adapter from 'enzyme-adapter-react-15';
+
+Enzyme.configure({ adapter: new Adapter() });
 
 describe('Button', () => {
     it('should renders without crashing', () => {
