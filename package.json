@@ -1,6 +1,6 @@
 {
   "name": "react-pricing-table",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Fast, flexible, simple pricing tables in React",
   "repository": {
     "type": "git",
@@ -27,8 +27,8 @@
     "react-dom": "~0.14.8 || ^15.0.0"
   },
   "dependencies": {
-    "react": "^15.5.4",
-    "react-cookie": "^2.0.7"
+    "react": "16.3.1",
+    "react-cookie": "2.1.4"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.2",
@@ -44,7 +44,7 @@
     "eslint-plugin-react": "^7.0.1",
     "jest": "^20.0.4",
     "react-addons-test-utils": "^15.5.1",
-    "react-dom": "^15.5.4",
+    "react-dom": "16.3.1",
     "react-hot-loader": "next",
     "react-test-renderer": "^15.5.4",
     "style-loader": "^0.18.2",
@@ -52,14 +52,21 @@
     "webpack-dev-server": "^2.4.5"
   },
   "jest": {
-    "modulePaths": ["./src"],
-    "moduleFileExtensions": ["js", "jsx"],
+    "modulePaths": [
+      "./src"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
     "transform": {
       "^.+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest",
       "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
       "^(?!.*\\.(js|jsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
     },
-    "transformIgnorePatterns": ["[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"]
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
+    ]
   },
   "keywords": [
     "react-component",
