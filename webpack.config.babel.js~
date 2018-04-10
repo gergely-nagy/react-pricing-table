@@ -5,7 +5,7 @@ import CircularDependencyPlugin from 'circular-dependency-plugin';
 
 export default () => ({
     entry: {
-        'index': './src/index.js',
+        'react-pricing-table': './src/index.js',
     },
 
     output: {
