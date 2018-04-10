@@ -1,9 +1,9 @@
 import React from 'react';
-import Button from './Button';
 import PropTypes from 'prop-types';
 
 const propTypes = {
   strikethrough: PropTypes.bool,
+  children: PropTypes.node
 };
 
 const defaultProps = {

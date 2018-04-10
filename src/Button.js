@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 const propTypes = {
   color: PropTypes.string,
   onClick: PropTypes.func,
+  children: PropTypes.node,
+  className: propTypes.string
 };
 
 
@@ -15,14 +17,14 @@ class Button extends React.Component {
   componentDidMount(){
     var buttonColor =this.props.color;
      Array.from(document.getElementsByClassName('button-submit')).forEach(
-       function(element, index, array) {
+       function(element) {
         element.style.backgroundColor=buttonColor;
       }
     );
   }
 
   render() {
-    const {onClick, className, color,  children } = this.props;
+    const {onClick, className, children } = this.props;
     return (
        <button type="button" onClick={onClick} className={className} >{children}</button>
     );

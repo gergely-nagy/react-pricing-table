@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 const propTypes = {
   highlightColor: PropTypes.string,
+  children: PropTypes.node
 };
 
 const defaultProps = {

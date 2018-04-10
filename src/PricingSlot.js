@@ -8,6 +8,7 @@ const propTypes = {
   title: PropTypes.string,
   priceText: PropTypes.string,
   buttonText: PropTypes.string,
+  children: PropTypes.node,
   highlightColor: PropTypes.string,
 };
 
@@ -22,7 +23,7 @@ class PricingSlot extends React.Component {
   }
 
   componentDidMount(){
-    this.props.highlighted ? document.getElementById("highlighted-header").style.backgroundColor=this.props.highlightColor : console.log('');
+    this.props.highlighted ? document.getElementById("highlighted-header").style.backgroundColor=this.props.highlightColor : null;
   }
 
   render() {
