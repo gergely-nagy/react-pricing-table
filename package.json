@@ -1,8 +1,8 @@
 {
   "name": "react-pricing-table",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Fast, flexible, simple pricing tables in React",
-  "main": "lib/react-pricing-table.js",
+  "main": "lib/react-pricing-table.min.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/gergely-nagy/react-pricing-table.git"
@@ -14,7 +14,8 @@
   "license": "MIT",
   "homepage": "https://gergely-nagy.github.io/react-pricing-table/",
   "scripts": {
-    "build": "webpack --config webpack.config.babel.js",
+    "build": "webpack --env dev && webpack --env build && npm run test",
+    "dev": "webpack --progress --colors --watch --env dev",
     "release": "webpack --p --config webpack.config.babel.js",
     "test": "jest",
     "coverage": "jest --coverage",
@@ -43,6 +44,7 @@
     "eslint-loader": "^1.9.0",
     "eslint-plugin-react": "^7.7.0",
     "jest": "22.4.3",
+    "prop-types": "^15.6.1",
     "react-addons-test-utils": "^15.6.2",
     "react-dom": "15.6.2",
     "react-hot-loader": "next",

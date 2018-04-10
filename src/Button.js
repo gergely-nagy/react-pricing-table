@@ -5,7 +5,7 @@ const propTypes = {
   color: PropTypes.string,
   onClick: PropTypes.func,
   children: PropTypes.node,
-  className: propTypes.string
+  className: PropTypes.string
 };
 
 
