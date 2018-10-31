@@ -7,6 +7,7 @@ const propTypes = {
   onClick: PropTypes.func,
   title: PropTypes.string,
   priceText: PropTypes.string,
+  buttonClass:PropTypes.string,
   buttonText: PropTypes.string,
   children: PropTypes.node,
   highlightColor: PropTypes.string,
@@ -27,7 +28,7 @@ class PricingSlot extends React.Component {
   }
 
   render() {
-    const {highlighted, highlightColor} = this.props;
+    const {highlighted, highlightColor,buttonClass,buttonText} = this.props;
     return (
       <div className="Grid-cell">
         <ul className="price basic-border">
@@ -35,7 +36,7 @@ class PricingSlot extends React.Component {
           <li className="tag">{this.props.priceText}</li>
           {this.props.children}
           <li className="grey">
-            <Button onClick={this.props.onClick} color={highlightColor} className="button-submit">{this.props.buttonText}</Button>
+            <Button onClick={this.props.onClick} color={highlightColor} className={buttonClass ? buttonClass : "button-submit"}>{buttonText}</Button>
           </li>
         </ul>
       </div>
