@@ -185,6 +185,12 @@ The examples are hosted within the docs folder and are ran in the simple add tha
           <td>Label for the price.</td>
         </tr>
         <tr>
+          <td>buttonClass</td>
+          <td>string</td>
+          <td>button-submit</td>
+          <td>Custom styles for the Button.</td>
+        </tr>
+        <tr>
           <td>buttonText</td>
           <td>string</td>
           <td></td>
