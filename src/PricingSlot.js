@@ -11,11 +11,13 @@ const propTypes = {
   buttonText: PropTypes.string,
   children: PropTypes.node,
   highlightColor: PropTypes.string,
+  shoudDisplayButton: PropTypes.bool
 };
 
 const defaultProps = {
   highlighted: false,
   highlightColor: "#f44336",
+  shouldDisplayButton: true
 };
 
 class PricingSlot extends React.Component {
@@ -28,16 +30,16 @@ class PricingSlot extends React.Component {
   }
 
   render() {
-    const {highlighted, highlightColor,buttonClass,buttonText} = this.props;
+    const {highlighted, highlightColor,buttonClass,buttonText, shouldDisplayButton} = this.props;
     return (
       <div className="Grid-cell">
         <ul className="price basic-border">
           <li id={(highlighted ? "highlighted" : "basic") + "-header"} className={(highlighted ? "highlighted" : "basic") + "-header"}>{this.props.title}</li>
           <li className="tag">{this.props.priceText}</li>
           {this.props.children}
-          <li className="grey">
+          {shouldDisplayButton && <li className="grey">
             <Button onClick={this.props.onClick} color={highlightColor} className={buttonClass ? buttonClass : "button-submit"}>{buttonText}</Button>
-          </li>
+          </li>}
         </ul>
       </div>
     )
