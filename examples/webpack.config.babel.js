@@ -17,7 +17,7 @@ export default () => ({
             {
                 test: /.jsx?$/,
                 exclude: /node_modules/,
-                
+
                 use: [
                     {
                         loader: 'babel-loader',
@@ -33,7 +33,7 @@ export default () => ({
             },
             {
                 test: /\.(css)$/,
-                loader: 'style-loader!css-loader',
+                loader: 'iso-morphic-style-loader!css-loader',
             },
         ]
     },

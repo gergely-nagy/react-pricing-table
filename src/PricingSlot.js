@@ -11,7 +11,7 @@ const propTypes = {
   buttonText: PropTypes.string,
   children: PropTypes.node,
   highlightColor: PropTypes.string,
-  shoudDisplayButton: PropTypes.bool
+  shouldDisplayButton: PropTypes.bool
 };
 
 const defaultProps = {

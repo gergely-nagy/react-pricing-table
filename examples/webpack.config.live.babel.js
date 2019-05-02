@@ -58,7 +58,7 @@ export default () => ({
             },
             {
                 test: /\.(css)$/,
-                loader: 'style-loader!css-loader',
+                loader: 'iso-morphic-style-loader!css-loader',
             },
         ]
     },
