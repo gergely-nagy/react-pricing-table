@@ -25,14 +25,6 @@ class PricingSlot extends React.Component {
         super(props);
     }
 
-    componentDidMount() {
-        this.props.highlighted
-            ? (document.getElementById(
-                  "highlighted-header"
-              ).style.backgroundColor = this.props.highlightColor)
-            : null;
-    }
-
     render() {
         const {
             highlighted,
