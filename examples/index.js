@@ -1,16 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
-import Example from './Example';
-import { AppContainer } from 'react-hot-loader';
+import Example from "./Example";
+import { AppContainer } from "react-hot-loader";
 // AppContainer is a necessary wrapper component for HMR
 
-const render = (Component) => {
+const render = Component => {
   ReactDOM.render(
     <AppContainer>
-      <Component/>
+      <Component />
     </AppContainer>,
-    document.getElementById('root')
+    document.getElementById("root")
   );
 };
 
@@ -18,7 +18,7 @@ render(Example);
 
 // Hot Module Replacement API
 if (module.hot) {
-  module.hot.accept('./Example', () => {
-    render(Example)
+  module.hot.accept("./Example", () => {
+    render(Example);
   });
 }
