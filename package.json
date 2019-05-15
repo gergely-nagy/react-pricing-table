@@ -16,7 +16,7 @@
   "scripts": {
     "build": "webpack --env dev --mode development && webpack --env build --mode production && npm run test",
     "dev": "webpack --progress --colors --watch --env dev --mode development",
-    "release": "webpack --p --config webpack.config.babel.js",
+    "release": "webpack --p",
     "test": "jest",
     "coverage": "jest --coverage",
     "deploy": "",
