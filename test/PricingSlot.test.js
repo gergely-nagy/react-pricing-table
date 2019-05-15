@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {PricingSlot} from '../src/index';
 import { shallow } from 'enzyme';
 import Enzyme from 'enzyme';
-import Adapter from 'enzyme-adapter-react-15';
+import Adapter from 'enzyme-adapter-react-16';
 
 Enzyme.configure({ adapter: new Adapter() });
 
