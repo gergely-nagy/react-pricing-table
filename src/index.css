@@ -1,43 +1,43 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 /* Style the list */
 .price {
-  list-style-type: none;
-  margin: 20px;
-  -webkit-transition: margin 0.5s ease-out;
-  -moz-transition: margin 0.5s ease-out;
-  -o-transition: margin 0.5s ease-out;
-  padding-left: 0px;
-  min-width: 180px;
+    list-style-type: none;
+    margin:20px;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+    padding-left: 0px;
+    min-width: 180px;
 }
 
 .basic-border {
-  border: 1px solid grey;
+    border: 1px solid grey;
 }
 
 .highlighted-border {
-  border: 1px solid #f44336;
+    border: 1px solid #f44336;
 }
 
 /* Add shadows on hover */
 .price:hover {
-  margin-top: 10px;
+    margin-top: 10px;
 }
 
 /* Pricing header */
 .price .highlighted-header {
-  background-color: #f44336;
-  color: white;
-  font-size: 24px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+    background-color: #f44336;
+    color: white;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.price .basic-header {
+.price .basic-header{
   background-color: #f8f9fa;
   color: grey;
   font-size: 24px;
@@ -48,30 +48,30 @@ body {
 /* List items */
 .price li {
   /*  border-bottom: 1px solid #eee; */
-  padding: 5px;
-  text-align: center;
-  font-size: 14px;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
 }
 
 /* tag list item */
 .price .tag {
-  font-size: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* The "Sign Up" button */
 .button-submit {
-  background-color: #f44336;
-  color: white;
-  height: 35px;
-  border: none;
-  font-size: 11px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    height: 35px;
+    border: none;
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 
-.text-line-through {
+.text-line-through{
   text-decoration: line-through;
 }

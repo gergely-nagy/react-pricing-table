@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const propTypes = {
   highlightColor: PropTypes.string,
@@ -7,7 +7,7 @@ const propTypes = {
 };
 
 const defaultProps = {
-  highlightColor: "#f44336"
+  highlightColor: '#f44336',
 };
 
 class PricingTable extends React.Component {
@@ -16,16 +16,18 @@ class PricingTable extends React.Component {
   }
 
   render() {
-    const childrenWithProps = React.Children.map(this.props.children, child =>
-      React.cloneElement(child, {
-        highlightColor: this.props.highlightColor
-      })
+    const childrenWithProps = React.Children.map(this.props.children,
+     (child) => React.cloneElement(child, {
+       highlightColor: this.props.highlightColor
+     })
     );
     return (
       <div className="react-pricing-table">
-        <div className="Grid">{childrenWithProps}</div>
+        <div className="Grid">
+          {childrenWithProps}
+        </div>
       </div>
-    );
+    )
   }
 }
 
