@@ -206,13 +206,13 @@ The examples are hosted within the docs folder and are ran in the simple add tha
           <td>titleAccessor</td>
           <td>React element</td>
           <td></td>
-          <td>A custom element to render title. Props: `id, className, highlighted, highlightColor, text`</td>
+          <td>A custom element to render title. Props: <code>id, className, highlighted, highlightColor, text</code></td>
         </tr>
         <tr>
           <td>priceAccessor</td>
           <td>React element</td>
           <td></td>
-          <td>A custom element to render price. Props: `text`</td>
+          <td>A custom element to render price. Props: <code>text</code></td>
         </tr>
     </tbody>
 </table>
