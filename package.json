@@ -22,7 +22,8 @@
     "deploy": "",
     "lint": "eslint ./src",
     "build-examples": "webpack --config examples/webpack.config.babel.js --progress",
-    "start": "webpack-dev-server --config examples/webpack.config.live.babel.js"
+    "start": "webpack-dev-server --config examples/webpack.config.live.babel.js",
+    "format": "prettier --write 'src/**/*.js' 'examples/**/*.js' 'src/**/*.css' '**/*.json'"
   },
   "dependencies": {
     "react": "15.6.2",
@@ -45,6 +46,7 @@
     "eslint-plugin-react": "^7.7.0",
     "iso-morphic-style-loader": "^2.0.1",
     "jest": "23.6.0",
+    "prettier": "^1.17.1",
     "prop-types": "^15.6.1",
     "react-addons-test-utils": "^15.6.2",
     "react-dom": "15.6.2",
