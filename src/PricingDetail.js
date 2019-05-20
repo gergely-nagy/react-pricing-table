@@ -1,5 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
 const propTypes = {
   strikethrough: PropTypes.bool,
@@ -7,7 +7,7 @@ const propTypes = {
 };
 
 const defaultProps = {
-  strikethrough: false,
+  strikethrough: false
 };
 
 class PricingDetail extends React.Component {
@@ -15,14 +15,15 @@ class PricingDetail extends React.Component {
     super(props);
   }
 
-
   render() {
-    const {strikethrough} = this.props;
+    const { strikethrough } = this.props;
     return (
       <div>
-        <li className={strikethrough ? "text-line-through" : ""}>{this.props.children}</li>
+        <li className={strikethrough ? "text-line-through" : ""}>
+          {this.props.children}
+        </li>
       </div>
-    )
+    );
   }
 }
 
