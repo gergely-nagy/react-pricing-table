@@ -202,6 +202,12 @@ The examples are hosted within the docs folder and are ran in the simple add tha
           <td>false</td>
           <td>Whether to show highlighted header.</td>
         </tr>
+        <tr>
+          <td>shouldDisplayButton</td>
+          <td>boolean</td>
+          <td>true</td>
+          <td>Whether to show button.</td>
+        </tr>
     </tbody>
 </table>
 
