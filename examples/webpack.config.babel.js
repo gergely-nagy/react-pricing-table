@@ -1,42 +1,41 @@
-import path from "path";
-import webpack from "webpack";
-import CleanWebpackPlugin from "clean-webpack-plugin";
+const path = require("path");
+const CleanWebpackPlugin = require("clean-webpack-plugin");
 
-export default () => ({
-  entry: {
-    index: path.join(__dirname, "./index.js")
-  },
+module.exports = {
+    entry: "./examples/index.js",
 
-  output: {
-    filename: "bundle.js",
-    path: path.resolve(__dirname, "dist")
-  },
+    output: {
+        filename: "bundle.js",
+        path: path.resolve(__dirname, "dist")
+    },
 
-  module: {
-    rules: [
-      {
-        test: /.jsx?$/,
-        exclude: /node_modules/,
+    mode: "production",
 
-        use: [
-          {
-            loader: "babel-loader",
-            options: {
-              babelrc: false,
-              presets: [["es2015", { modules: false }], "react"]
+    module: {
+        rules: [
+            {
+                test: /.jsx?$/,
+                exclude: /node_modules/,
+                use: [
+                    {
+                        loader: "babel-loader",
+                        options: {
+                            babelrc: true
+                        }
+                    }
+                ]
+            },
+            {
+                test: /\.(css)$/,
+                loader: "iso-morphic-style-loader!css-loader"
             }
-          }
         ]
-      },
-      {
-        test: /\.(css)$/,
-        loader: "iso-morphic-style-loader!css-loader"
-      }
-    ]
-  },
+    },
 
-  plugins: [
-    // Clean dist folder
-    new CleanWebpackPlugin(["./dist/build.js"])
-  ]
-});
+    plugins: [
+        // Clean dist folder
+        new CleanWebpackPlugin({
+            cleanOnceBeforeBuildPatterns: ["./dist/build.js"]
+        })
+    ]
+};
