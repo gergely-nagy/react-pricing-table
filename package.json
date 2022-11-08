@@ -52,7 +52,7 @@
     "react-dom": "15.6.2",
     "react-hot-loader": "next",
     "react-test-renderer": "15.6.2",
-    "webpack": "2.4.1",
+    "webpack": "5.74.0",
     "webpack-dev-server": "2.4.5",
     "yargs": "^10.0.3"
   },
